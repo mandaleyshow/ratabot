@@ -1,0 +1,15 @@
+{
+  "name": "Ratabot",
+  "description": "Der Serverbereich für Ratabot",
+  "image": "heroku/python",
+  "repository": "https://github.com/mandaleyshow/ratabot",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "server.py test"
+      }
+    }
+  }
+}
